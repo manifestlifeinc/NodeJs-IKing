@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: NodeJs-IKing
+  host: NodeJs-IKing
+  disk_quota: 1152M
+  env:
+    ENABLE_BLUEMIX_DEV_MODE: 'true'
